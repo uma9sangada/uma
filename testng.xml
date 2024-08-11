@@ -3,14 +3,17 @@
 <suite parallel="tests"  name ="Suite">
 
 	
-	<listeners>
-		<listener class-name="UmaSangada.TestComponents.Listners"/>
+<listeners>
+		<listener class-name="UmaSangada.TestComponents.Listners" />
 	</listeners>
-	  <test thread-count="5" name="complete e2e tes">
-    <classes>
-      <class name="UmaSangada.Tests.ModifiedE2e"/>
-      
-    </classes>
+
+
+	<test thread-count="5" name="complete e2e tes">
+		<classes>
+			<class name="UmaSangada.Tests.ModifiedE2e" />
+
+		</classes>
+	</test>
   
   
 
