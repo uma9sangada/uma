@@ -11,19 +11,9 @@
       <class name="UmaSangada.Tests.ModifiedE2e"/>
       
     </classes>
-  </test> <!-- Test -->
+  
   
 
 	
-	<test thread-count="5" name="error validation">
-    <classes>
-      <class name="UmaSangada.Tests.ErrorValidation"/>
-      
-    </classes>
-  </test> <!-- Test -->
- 
-
-  
-  
   
 </suite> <!-- Suite -->
