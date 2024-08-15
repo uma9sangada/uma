@@ -18,4 +18,10 @@ pipeline {
             }
         }
     }
+    post
+    {
+        always {
+            emailext attachLog: true, body: 'summary', subject: 'Test report', to: 'uma.sangada@gmail.com'
+        }
+    }
 }
